@@ -1,0 +1,4 @@
+{"messages": [{"role": "system", "content": "Classifique a intenção do suporte fictício. Retorne somente o rótulo permitido."}, {"role": "user", "content": "Como recupero o acesso?"}, {"role": "assistant", "content": "orientar_acesso"}]}
+{"messages": [{"role": "system", "content": "Classifique a intenção do suporte fictício. Retorne somente o rótulo permitido."}, {"role": "user", "content": "Preciso recuperar meu acesso."}, {"role": "assistant", "content": "orientar_acesso"}]}
+{"messages": [{"role": "system", "content": "Classifique a intenção do suporte fictício. Retorne somente o rótulo permitido."}, {"role": "user", "content": "Há política sobre astronomia?"}, {"role": "assistant", "content": "abster"}]}
+{"messages": [{"role": "system", "content": "Classifique a intenção do suporte fictício. Retorne somente o rótulo permitido."}, {"role": "user", "content": "Qual é a política de vulcões?"}, {"role": "assistant", "content": "abster"}]}

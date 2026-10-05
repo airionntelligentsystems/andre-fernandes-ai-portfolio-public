@@ -1,0 +1,40 @@
+{
+  "scope": "experimentos locais com ledger SQLite e destino sintético",
+  "generated_at": "2026-10-05T16:42:19.699189+00:00",
+  "passed": 5,
+  "total": 5,
+  "scenarios": [
+    {
+      "scenario": "aprovação antes da reserva",
+      "passed": true
+    },
+    {
+      "scenario": "reinício com intenção e aprovação preservadas",
+      "passed": true
+    },
+    {
+      "scenario": "reserva expirada entra em reconciliação",
+      "passed": true
+    },
+    {
+      "scenario": "worker antigo impedido de concluir",
+      "passed": true
+    },
+    {
+      "scenario": "nova tentativa após ausência observada e recibo sintético",
+      "passed": true
+    }
+  ],
+  "events": [
+    "prepared",
+    "approved",
+    "claimed",
+    "lease_expired",
+    "reconciled_absent",
+    "claimed",
+    "confirmed"
+  ],
+  "external_dispatch_executed": false,
+  "provider_ack_verified": false,
+  "authentication_implemented": false
+}

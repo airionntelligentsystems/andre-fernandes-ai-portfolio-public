@@ -1,0 +1,6 @@
+[
+  {"id":"alpha-return","tenant":"demo_alpha","title":"Devolução demonstrativa Alpha","text":"No cenário fictício Alpha, o prazo de devolução é de 7 dias. A equipe revisa cada solicitação antes de qualquer operação."},
+  {"id":"alpha-support","tenant":"demo_alpha","title":"Suporte demonstrativo Alpha","text":"O suporte fictício Alpha orienta sobre cadastro e acesso. Pedidos de follow-up devem ser propostos para revisão humana."},
+  {"id":"beta-return","tenant":"demo_beta","title":"Devolução demonstrativa Beta","text":"No cenário fictício Beta, o prazo de devolução é de 30 dias. Esta política pertence somente ao contexto Beta."},
+  {"id":"beta-support","tenant":"demo_beta","title":"Suporte demonstrativo Beta","text":"O suporte fictício Beta atende dúvidas sobre renovação. A resposta deve indicar a fonte utilizada."}
+]

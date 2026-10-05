@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="320" viewBox="0 0 1400 320" role="img" aria-labelledby="titulo descricao">
+ <title id="titulo">André Henrique Fernandes — AI Solutions Engineer</title>
+ <desc id="descricao">Engenharia e desenvolvimento de soluções corporativas com inteligência artificial. Técnica e visão de negócio.</desc>
+ <rect width="1400" height="320" fill="#15273b"/>
+ <rect x="66" y="54" width="46" height="4" fill="#69b9d4"/>
+ <text x="66" y="103" fill="#afc0d0" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">ARQUITETURA · DESENVOLVIMENTO · ESTRATÉGIA</text>
+ <text x="66" y="165" fill="#ffffff" font-family="Arial, sans-serif" font-size="45" font-weight="700">André Henrique Fernandes</text>
+ <text x="66" y="210" fill="#8fd0e3" font-family="Arial, sans-serif" font-size="29">AI Solutions Engineer</text>
+ <text x="66" y="263" fill="#d8e2ec" font-family="Arial, sans-serif" font-size="20">Sistemas de IA · Integração corporativa · Execução governada · Valor empresarial</text>
+</svg>

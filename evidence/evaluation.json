@@ -1,0 +1,67 @@
+{
+  "scope": "contratos determinísticos e SDK LangGraph em cenário fictício",
+  "llm_executed": false,
+  "production_validated": false,
+  "generated_at": "2026-10-05T16:06:41.990966+00:00",
+  "versions": {
+    "langgraph": "1.2.12",
+    "mcp": "2.3.0",
+    "pydantic": "2.13.5"
+  },
+  "corpus_sha256": "c9fda26aaf56e9571ef1b80699cf6e3b010f3af92557db806135c8c3cf1d710b",
+  "prompt_sha256": "6fe674929ce110e91e68471af54b0bc5917796b234425536e9f0feb075b9dd4f",
+  "scenarios": [
+    {
+      "id": "rag_tenant_scope",
+      "criterion": "Consulta Alpha só retorna fontes Alpha",
+      "status": "passed"
+    },
+    {
+      "id": "rag_unknown_abstains",
+      "criterion": "Ausência de fonte produz abstenção",
+      "status": "passed"
+    },
+    {
+      "id": "input_extra_field",
+      "criterion": "Campo extra não muda o domínio permitido",
+      "status": "passed"
+    },
+    {
+      "id": "citation_unknown",
+      "criterion": "Citação inventada é rejeitada",
+      "status": "passed"
+    },
+    {
+      "id": "query_parameterization",
+      "criterion": "Texto de consulta não altera o banco",
+      "status": "passed"
+    },
+    {
+      "id": "workflow_approval_idempotency",
+      "criterion": "Revisão antes do efeito e repetição sem duplicidade",
+      "status": "passed"
+    },
+    {
+      "id": "workflow_denial",
+      "criterion": "Recusa encerra sem efeito",
+      "status": "passed"
+    },
+    {
+      "id": "workflow_scope_binding",
+      "criterion": "Digest divergente não autoriza efeito",
+      "status": "passed"
+    },
+    {
+      "id": "graph_cycle_impact",
+      "criterion": "Ciclo rejeitado sem mutação e impacto rastreável",
+      "status": "passed"
+    },
+    {
+      "id": "fine_tuning_group_split",
+      "criterion": "Grupos não se cruzam e treinamento não é alegado",
+      "status": "passed"
+    }
+  ],
+  "passed": 10,
+  "total": 10
+}

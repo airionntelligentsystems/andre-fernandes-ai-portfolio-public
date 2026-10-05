@@ -1,0 +1,12 @@
+{
+  "transport": "stdio",
+  "sdk": "mcp",
+  "tools": [
+    "propose_followup",
+    "search_knowledge"
+  ],
+  "tenant_isolation": true,
+  "invalid_tenant_rejected": true,
+  "effect": "none",
+  "status": "passed"
+}

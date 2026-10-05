@@ -1,0 +1,17 @@
+{
+  "scope": "testes locais do laboratório fictício",
+  "generated_at": "2026-10-05T16:42:19.267820+00:00",
+  "python": "3.12.14",
+  "versions": {
+    "pytest": "9.1.1",
+    "langgraph": "1.2.12",
+    "mcp": "2.3.0",
+    "pydantic": "2.13.5"
+  },
+  "tests": 37,
+  "errors": 0,
+  "failures": 0,
+  "skipped": 0,
+  "passed": 37,
+  "remote_ci_executed": false
+}

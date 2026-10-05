@@ -1,0 +1,20 @@
+{
+  "input_examples": 12,
+  "unique_examples": 12,
+  "train_examples": 8,
+  "validation_examples": 4,
+  "train_groups": [
+    "followup",
+    "handoff",
+    "return",
+    "status"
+  ],
+  "validation_groups": [
+    "access",
+    "unknown"
+  ],
+  "seed": 42,
+  "weights_trained": false,
+  "train_sha256": "c0114e6cc91933871dca68303e33afbcdb89d1e335c9f21d73cd9cad1aec49be",
+  "validation_sha256": "0ef555e5c66eefb15eda0d25f9d0bb889a756d5678f18c4b0161f9832356418c"
+}

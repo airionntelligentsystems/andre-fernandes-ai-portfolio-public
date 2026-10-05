@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "andre-fernandes-portfolio-lab"
+version = "0.1.0"
+description = "Laboratório demonstrativo de engenharia de soluções corporativas com IA"
+requires-python = ">=3.12"
+dependencies = ["langgraph==1.2.12", "mcp==2.3.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+portfolio_lab = ["data/*.json", "prompts/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
